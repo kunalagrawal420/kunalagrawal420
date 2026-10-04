@@ -4,18 +4,18 @@ from xml.sax.saxutils import escape
 HANDLE = "kunal@github"
 ROWS = [
     ("Name",     "Kunal Agrawal"),
-    ("Now",      "Backend developer moving into AI / LLM engineering"),
-    ("Stack",    "Java, Spring Boot, REST APIs, PostgreSQL"),
+    ("Now",      "Java dev -> AI/LLM engineer"),
+    ("Stack",    "Java, Spring Boot, PostgreSQL"),
     ("Infra",    "Docker, AWS"),
     ("Frontend", "React, TypeScript"),
-    ("Learning", "Building real LLM projects, not just tutorials"),
+    ("Learning", "Building real LLM projects"),
 ]
-WIDTH = 860          # full width for now; we'll shrink it when the portrait goes beside it
+WIDTH = 490          # full width for now; we'll shrink it when the portrait goes beside it
 # -----------------------------------------------------------------
 
 LINE = 26
 PAD_X, PAD_TOP = 24, 64
-KEY_X, VAL_X = PAD_X, PAD_X + 110
+KEY_X, VAL_X = PAD_X, PAD_X + 90
 n_lines = len(ROWS) + 2          # +2 for the handle line and the divider line
 H = PAD_TOP + n_lines * LINE + 20
 
