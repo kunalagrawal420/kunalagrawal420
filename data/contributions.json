@@ -1,8 +1,8 @@
 {
   "username": "kunalagrawal420",
-  "total": 45,
-  "current_streak": 40,
-  "longest_streak": 40,
+  "total": 46,
+  "current_streak": 41,
+  "longest_streak": 41,
   "days": [
     {
       "date": "2025-11-09",
@@ -1851,6 +1851,11 @@
     },
     {
       "date": "2026-11-13",
+      "level": 2,
+      "count": 1
+    },
+    {
+      "date": "2026-11-14",
       "level": 0,
       "count": 0
     }
